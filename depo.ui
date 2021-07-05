@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1124</width>
+    <height>888</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(54, 54, 54);</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>300</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:18pt;
+color: rgb(255, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>Ürün Listesi</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>300</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:18pt;
+color: rgb(255, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>Stoktaki Adet</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>300</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:18pt;
+color: rgb(255, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>      Kategori Listesi</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>50</y>
+     <width>351</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:38pt;
+color: rgb(255, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>Depo Ekranı</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stokadet">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>360</y>
+     <width>201</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size:38pt;
+color: rgb(255, 0, 127);</string>
+   </property>
+   <property name="text">
+    <string>Ürün Seçiniz</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="urunekleformbutton">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>300</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 127);
+background-color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>Ürün Ekle</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stokduzenle">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>590</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 127);
+background-color: rgb(255, 255, 127);
+</string>
+   </property>
+   <property name="text">
+    <string>Stok Sayısını Düzenle</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="urunusil">
+   <property name="geometry">
+    <rect>
+     <x>920</x>
+     <y>480</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 0, 127);
+background-color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>Ürünü sil</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="kategorilist">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>360</y>
+     <width>211</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="urunlist">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>360</y>
+     <width>211</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="eklenecekstokadetint">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>590</y>
+     <width>113</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(61, 103, 255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
